@@ -5,6 +5,7 @@
 			padding-left:0;
 			font-family:Arial, sans-serif;
 			font-size:18px;
+			letter-spacing: 30px;
 			
 			}
 		h2{
@@ -14,6 +15,8 @@
 			border-right-color:#F5FFFA;
 			border-left-color:#F5FFFA;
 			border-bottom-color:red;
+			text-align: right;
+			transform: rotate(60deg);
 			}
 		p{
 			border-left:6px; 
@@ -21,6 +24,9 @@
 			border-style:dotted;
 			color:EOFFFF;
 			font-size:25px;
+			font-variant:small-caps;
+			direction:rtl;
+			
 			}
 		.lecentre{
 			text-align:center;
@@ -29,8 +35,36 @@
 		h4{
 			text-align:center;
 			font-size:30px;
+			position:absolute;
+			top: 500px; 
 }
+		h1{
+			transform: rotate(180deg);
 			
+}
+		h3{
+			margin-top: 200px;
+}
+		.post{
+			position:absolute;
+			top:300px;
+}
+		.dip{
+			position:absolute;
+			top-right:25px;
+			margin-left:50px;
+			text-align:right;
+}
+		.loi{
+			text-align:center;
+}
+		.comp{
+			margin-left:125px
+}
+		.lala{
+			position:absolute;
+			top:700px
+}		
 			
 </style>
 </head>
@@ -40,7 +74,7 @@
 		<header> 
 			<h1 class="lecentre" style="border-bottom:3px solid black; color: red"> <U>Developpeur Logiciel</U> </h1> 
 			<div> 
-				<ul>
+				<ul class="lala">
 					<li><strong> Ludovic Castro</strong> </li>
 					<li> 23 ans </li>
 					<li> Lunel </li>
@@ -49,7 +83,7 @@
  			</div> 
 		</header>
 		<section> 
-				<h2> <U>Compétences</U> </h2>
+				<h2 class="comp"> <U>Compétences</U> </h2>
 				<ul>
 					<li> le java c'est sympa </li>
 					<li> taper sur un clavier </li>
@@ -57,7 +91,7 @@
 				</ul>
 	
 		</section>
-		<section> <!-- Expériences -->
+		<section class="post"> <!-- Expériences -->
 				<h3> <U>Expériences</U> </h3>
 				<article>
 					<h4 style="border-left: 6px solid red;
@@ -71,7 +105,7 @@
 				
 			</articles>
 		</section>
-		<section> <!-- Diplômes -->
+		<section class="dip"> <!-- Diplômes -->
 			<article>
 				<h2> <U>Diplomes</U> </h2>
 					<ul> 
@@ -87,7 +121,7 @@
 		</section>
 		<section> <!-- Loisirs -->
 			<article>
-				<h2> loisir </h2>
+				<h2 class="loi"> loisir </h2>
 					<ul>
 						<li> venir à beweb </li>
 						<li> dormir à beweb </li>
