@@ -1,3 +1,7 @@
+		body{
+			font-family: 'Molle', cursive;
+		}
+
 		.section1{
 			float: 	right;
 			position: relative;
@@ -42,8 +46,9 @@
 		.box2{
 			box-shadow:10px 10px 5px 20px gray inset;
 		}
-		.beweb{
-			margin-top: 15px;
+		.beweb:hover{
+			font-size: 45px;
+			margin-bottom: 2cm;
 		}
 		div:nth-child(odd){
 			background-color: purple;
@@ -51,3 +56,4 @@
 		div:nth-child(even){
 			background-color: green;
 		}
+		
