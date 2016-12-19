@@ -1,0 +1,55 @@
+		
+		body{background-color:#132E37
+			}
+
+
+
+		.section1{
+			float: center;
+		
+		}
+		
+		.dev{
+			text-align:center;
+		
+		}
+		
+		.loi{
+			text-align: center;
+		
+		}
+
+		.dip:hover{
+			text-align: left;
+			background-color:silver;
+		}
+		
+		.wh:hover{
+
+			background-color: blue;
+		}
+		
+		.bl:hover{
+			background-color: silver;
+		}
+
+		.r:hover{
+			background-color: silver;
+			text-align: center;
+		}
+		
+		.box{
+			box-shadow: 10px 10px blue; text-align: center
+		}
+		.box2{
+			box-shadow:5px 5px 2px 10px gray inset;
+		}
+		.beweb{
+			margin-top: 5px;
+		}
+		div:nth-child(odd){
+			background-color: blue;
+		}
+		div:nth-child(even){
+			background-color: silver;
+		}

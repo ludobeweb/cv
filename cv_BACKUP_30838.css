@@ -1,4 +1,4 @@
-
+<<<<<<< HEAD
 		
 		body{background-color:#132E37
 			}
@@ -13,7 +13,7 @@
 		.dev{
 			text-align:center;
 		
-
+=======
 		body{
 			font-family: 'Molle', cursive;
 		}
@@ -30,7 +30,7 @@
 			text-align: center;
 			position: relative;
 	
-
+>>>>>>> e6cc26220f407c5f6822a444da58c72b5feb533d
 		}
 		
 		.loi{
@@ -39,18 +39,18 @@
 		}
 
 		.dip:hover{
-
+<<<<<<< HEAD
 			text-align: left;
 			background-color:silver;
-
+=======
 			text-align: center;
 			background-color: #FFEBCD;
-
+>>>>>>> e6cc26220f407c5f6822a444da58c72b5feb533d
 		}
 		
 		.wh:hover{
 
-
+<<<<<<< HEAD
 			background-color: blue;
 		}
 		
@@ -78,7 +78,7 @@
 		div:nth-child(even){
 			background-color: silver;
 		}
-
+=======
 			background-color: #FFEBCD;
 		}
 		
