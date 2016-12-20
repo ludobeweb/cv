@@ -1,111 +1,11 @@
 
-		
-		body{background-color:#132E37
-			}
+		.jenaimar{
+		background-color:#F5F5F5;}			
 
 
-
-		.section1{
-			float: center;
-		
-		}
-		
-		.dev{
-			text-align:center;
-		
-
-		body{
-			font-family: 'Molle', cursive;
-		}
-
-		.section1{
-			float: 	right;
-			position: relative;
-		
-		
-			
-		}
-		
-		.dev{
-			text-align: center;
-			position: relative;
-	
-
-		}
-		
-		.loi{
-			text-align: center;
-		
-		}
-
-		.dip:hover{
-
-			text-align: left;
-			background-color:silver;
-
-			text-align: center;
-			background-color: #FFEBCD;
-
-		}
-		
-		.wh:hover{
+		.font{
+		font-family: 'Molle', cursive; color: black; font-size: 35px}
 
 
-			background-color: blue;
-		}
-		
-		.bl:hover{
-			background-color: silver;
-		}
-
-		.r:hover{
-			background-color: silver;
-			text-align: center;
-		}
-		
-		.box{
-			box-shadow: 10px 10px blue; text-align: center
-		}
-		.box2{
-			box-shadow:5px 5px 2px 10px gray inset;
-		}
-		.beweb{
-			margin-top: 5px;
-		}
-		div:nth-child(odd){
-			background-color: blue;
-		}
-		div:nth-child(even){
-			background-color: silver;
-		}
-
-			background-color: #FFEBCD;
-		}
-		
-		.bl:hover{
-			background-color: blue;
-		}
-
-		.r:hover{
-			background-color: red;
-			text-align: right;
-		}
-		
-		.box{
-			box-shadow: 10px 10px black;
-		}
-		.box2{
-			box-shadow:10px 10px 5px 20px gray inset;
-		}
-		.beweb:hover{
-			font-size: 45px;
-			margin-bottom: 2cm;
-		}
-		div:nth-child(odd){
-			background-color: purple;
-		}
-		div:nth-child(even){
-			background-color: green;
-		}
-		
->>>>>>> e6cc26220f407c5f6822a444da58c72b5feb533d
+		.fonteu{
+		font-family: 'Molle', cursive;font-size: 50px; border-bottom: solid 2px}
