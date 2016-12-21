@@ -1,0 +1,9 @@
+@mixin textposition{
+		text-align: center;
+		position: relative;
+		}
+	.dev:hover{
+			background-color: blue;
+			@include textposition
+		}
+

@@ -1,0 +1,30 @@
+@mixin textposition{
+		text-align: center;
+		position: relative;
+		}	
+.dip:hover{
+		@include textposition	
+		}
+		
+	body{
+			font-family: 'Molle', cursive;
+		}
+
+		.section1{
+			float: 	right;
+			position: relative;
+		
+		
+			
+		}
+		
+		
+		
+		
+		.loi{
+			text-align: center;
+		
+		}
+
+	
+	

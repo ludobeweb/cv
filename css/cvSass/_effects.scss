@@ -1,0 +1,25 @@
+$couleur:#7B68EE;
+		.wh:hover{
+
+			background-color: $couleur;
+		}
+		
+		
+		.r:hover{
+			background-color: red;
+			text-align: right;
+		}
+		
+		
+		.beweb:hover{
+			font-size: 45px;
+			margin-bottom: 2cm;
+		}
+
+	
+		div:nth-child(odd){
+			background-color: $couleur;
+		}
+		div:nth-child(even){
+			background-color: green;
+		}
