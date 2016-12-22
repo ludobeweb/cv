@@ -4,9 +4,9 @@ $couleur:#7B68EE;
 			background-color: $couleur;
 		}
 		
-		
+			
 		.r:hover{
-			background-color: red;
+			background-color: blue;
 			text-align: right;
 		}
 		
@@ -15,11 +15,14 @@ $couleur:#7B68EE;
 			font-size: 45px;
 			margin-bottom: 2cm;
 		}
-
+		
 	
 		div:nth-child(odd){
 			background-color: $couleur;
 		}
 		div:nth-child(even){
 			background-color: green;
+		}
+		ul{
+		list-style:none
 		}

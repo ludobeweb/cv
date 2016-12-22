@@ -2,29 +2,29 @@
 <html>
 	<head>
 
-	<link rel="stylesheet" type="text/css" href="/css/cv.css">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
 
 	<meta charset="UTF-8">
 	<link href="https://fonts.googleapis.com/css?family=Molle:400i" rel="stylesheet">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
 </head>
 
 
 	<body>	
-		<nav class="box">
+		<nav>
 
-			<a href="cv.html">profil</a>
-			<a href="cvmulti/compétence.html">Compétences</a>
-			<a href="cvmulti/expériences.html">Expériences</a>
-			<a href="cvmulti/diplomes.html">Diplomes</a>
-			<a href="cvmulti/loisirs.html">Loisirs</a>
-
+			<a>profil</a>
+			<a href="#comp">Compétences</a>
+			<a href="#expe">Expériences</a>
+			<a href="#dip">Diplomes</a>
+			<a href="#loi">Loisirs</a>
 			
-		</nav>
+		</ul>
 
 		<header> 
 		<section class="dev"> 
-			<div class="bl">
+			<div>
 			
 			<h1> <U>Developpeur Logiciel</U> </h1>
 
@@ -43,8 +43,10 @@
 		</header>
 		
 	<section id="competence id="competence" class="section1" > 
-			
-				<h2> <U>Compétences</U> </h2>
+			<div class="container">
+<div class="row">
+<div class="col-sm-6">
+				<h2 id="#comp"> <U>Compétences</U> </h2>
 
 				<ul >
 					<li> le java c'est sympa </li>
@@ -55,9 +57,10 @@
 		</section>
 
 	<section   class="dip"  > <!-- Diplômes -->
+<div class="clo-sm-6">
 			<article>
 			<div >
-				<h2> <U>Diplomes</U> </h2>
+				<h2 id="dip"> <U>Diplomes</U> </h2>
 
 			</div>
 				<p  class="dip" > date d'obtention </p>
@@ -68,9 +71,11 @@
 			</article>
 			
 		</section>
+</div>
 
 	<section id=experience class="r"> <!-- Expériences -->
-				<h3> Expériences </h3>
+
+				<h3 id="expe"> Expériences </h3>
 
 				<article>
 					<h4> lidl paradis 2011/2015 </h4>
@@ -89,8 +94,8 @@
 
 				<div class="box2">
 				
-				<h2> loisir </h2>
-		
+				<h2 id="loi"> loisir </h2>
+
 					<ul class="beweb">
 
 					<ul>
@@ -102,6 +107,7 @@
 				</section>
 			</div>
 			</article>
+
 	</body>
 
 </html>
