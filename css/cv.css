@@ -1,0 +1,40 @@
+.box {
+  box-shadow: 10px 10px black; }
+
+.wh:hover {
+  background-color: #7B68EE; }
+
+.r:hover {
+  background-color: red;
+  text-align: right; }
+
+.beweb:hover {
+  font-size: 45px;
+  margin-bottom: 2cm; }
+
+div:nth-child(odd) {
+  background-color: #7B68EE; }
+
+div:nth-child(even) {
+  background-color: green; }
+
+.dev:hover {
+  background-color: blue;
+  text-align: center;
+  position: relative; }
+
+.dip:hover {
+  text-align: center;
+  position: relative; }
+
+body {
+  font-family: 'Molle', cursive; }
+
+.section1 {
+  float: right;
+  position: relative; }
+
+.loi {
+  text-align: center; }
+
+/*# sourceMappingURL=cv.css.map */
